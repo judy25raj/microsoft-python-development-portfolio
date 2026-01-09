@@ -1,0 +1,46 @@
+Example execution transcript – medical-diagnosis-chatbot-python
+----------------------------------------------------------------
+
+Welcome to the Medical Diagnosis Assistant Chatbot (Educational Demo).
+Please describe your primary concern (e.g., 'I have a headache and nausea').
+You: I have a headache and some fever.
+
+Chatbot: I understand you have headache, fever.
+Based on your symptoms, the most likely possibilities are:
+- common cold (2 matching symptom(s))
+  * Rest, stay hydrated, and consider over-the-counter medications for symptom relief.
+- flu (2 matching symptom(s))
+  * Rest, stay hydrated, and consider over-the-counter medications for symptom relief.
+- migraine (1 matching symptom(s))
+  * Rest in a quiet, dark room. Apply a cold compress to your forehead. Consider over-the-counter pain relievers.
+- tension headache (1 matching symptom(s))
+  * Apply a warm compress to your neck and shoulders. Practice stress management techniques. Consider over-the-counter pain relievers.
+- sinusitis (1 matching symptom(s))
+  * Use a humidifier or saline nasal spray. Consider over-the-counter pain relievers and decongestants.
+Remember, I am just a chatbot and cannot provide definitive medical advice. Please consult a doctor for proper diagnosis and treatment.
+
+Please enter an additional symptom, or 'no' if you have no more: nausea
+
+Chatbot: I understand you have headache, fever, nausea.
+Based on your symptoms, the most likely possibilities are:
+- flu (3 matching symptom(s))
+  * Rest, stay hydrated, and consider over-the-counter medications for symptom relief.
+- common cold (2 matching symptom(s))
+  * Rest, stay hydrated, and consider over-the-counter medications for symptom relief.
+- migraine (2 matching symptom(s))
+  * Rest in a quiet, dark room. Apply a cold compress to your forehead. Consider over-the-counter pain relievers.
+- tension headache (1 matching symptom(s))
+  * Apply a warm compress to your neck and shoulders. Practice stress management techniques. Consider over-the-counter pain relievers.
+- sinusitis (1 matching symptom(s))
+  * Use a humidifier or saline nasal spray. Consider over-the-counter pain relievers and decongestants.
+- food poisoning (1 matching symptom(s))
+  * Stay hydrated and rest. Consider over-the-counter medications for symptom relief.
+- stomach virus (1 matching symptom(s))
+  * Stay hydrated and rest. Consider over-the-counter medications for symptom relief.
+- pregnancy (1 matching symptom(s))
+  * Consult a doctor for appropriate testing and guidance.
+Remember, I am just a chatbot and cannot provide definitive medical advice. Please consult a doctor for proper diagnosis and treatment.
+
+Please enter an additional symptom, or 'no' if you have no more: no
+
+Chatbot: Thank you for using the medical assistant demo. Take care!
