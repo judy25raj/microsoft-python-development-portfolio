@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Azure Mad Libs – Flask on App Service</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Azure Mad Libs</h1>
+        <p class="subtitle">
+            Fill in the blanks with creative words and generate your own cloud-themed story!
+        </p>
+
+        <form method="POST" action="/">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="adjective1">Adjective 1:</label>
+            <input type="text" id="adjective1" name="adjective1" required>
+
+            <label for="noun">Noun:</label>
+            <input type="text" id="noun" name="noun" required>
+
+            <label for="verb">Verb:</label>
+            <input type="text" id="verb" name="verb" required>
+
+            <label for="number">Number:</label>
+            <input type="text" id="number" name="number" required>
+
+            <label for="adjective2">Adjective 2:</label>
+            <input type="text" id="adjective2" name="adjective2" required>
+
+            <button type="submit">Generate Story</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Azure Mad Libs Story</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Azure Mad Libs Story</h1>
+        <pre class="story-block">{{ story }}</pre>
+        <a href="/" class="back-link">Create another story</a>
+    </div>
+</body>
+</html>
