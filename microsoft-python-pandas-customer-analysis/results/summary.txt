@@ -1,0 +1,51 @@
+Shape: (50, 13)
+
+Column Types:
+customer_id             int64
+first_name             object
+last_name              object
+email                  object
+gender                 object
+age                     int64
+city                   object
+state                  object
+country                object
+purchase_count          int64
+total_spend             int64
+avg_order_value       float64
+last_purchase_date     object
+dtype: object
+
+Head:
+   customer_id first_name  ... avg_order_value          last_purchase_date
+0         1001     Sophia  ...           193.0  2023-09-12 15:28:32.140488
+1         1002     Joseph  ...           178.0  2023-08-25 15:28:32.140488
+2         1003       John  ...           199.0  2024-04-28 15:28:32.140488
+3         1004       Emma  ...           268.0  2024-01-01 15:28:32.140488
+4         1005      Emily  ...           135.0  2023-12-09 15:28:32.140488
+
+[5 rows x 13 columns]
+
+Describe:
+       customer_id        age  purchase_count  total_spend  avg_order_value
+count     50.00000  50.000000        50.00000    50.000000        50.000000
+mean    1025.50000  43.440000         8.60000  1491.880000       179.920000
+std       14.57738  14.833993         4.28095   968.697666        70.820221
+min     1001.00000  19.000000         1.00000   199.000000        53.000000
+25%     1013.25000  30.000000         5.00000   819.000000       125.750000
+50%     1025.50000  44.500000         8.00000  1350.000000       180.000000
+75%     1037.75000  54.000000        12.00000  1916.000000       237.500000
+max     1050.00000  69.000000        15.00000  4440.000000       299.000000
+
+Gender Distribution:
+M    27
+F    23
+Name: gender, dtype: int64
+
+Top 5 Customers:
+    customer_id first_name  last_name  total_spend
+12         1013     Sophia     Thomas         4440
+3          1004       Emma  Hernandez         3752
+41         1042        Ava      Moore         3345
+8          1009      David      Davis         3304
+42         1043    Michael    Jackson         3159
