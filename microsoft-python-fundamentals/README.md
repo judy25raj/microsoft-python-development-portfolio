@@ -1,35 +1,46 @@
-# 🐍 Solve Problems with Python — Microsoft Python Development
+<h1 align="center">Python Fundamentals – Core Programming Patterns</h1>
 
-**Score:** 100 / 100 ✅  
-**Lab ID:** C1_M6_L01  
-**Environment:** Microsoft Python Development (Jupyter-based Lab)
+<p align="center">
+  Conditionals • Loops • Sorting • Error Handling • Modular Functions
+</p>
 
-This portfolio demonstrates foundational Python programming skills, including conditionals, loops, sorting algorithms, and error handling.  
-All graded tasks passed successfully, confirming functional and logical accuracy.
+<hr/>
 
-## 🧩 Activities
-1️⃣ **Conditional Logic:** Developed `send_discount()` function to decide discounts with logical branching.  
-2️⃣ **Loops & Iteration:** Built `categorize_ratings()` to classify user feedback efficiently.  
-3️⃣ **Sorting & Error Handling:** Implemented `bubble_sort()` and `average_class_score()` for score analysis and safe validation.
+## 🧠 Overview
+This project demonstrates core Python programming patterns commonly used in automation, data processing, and backend services.  
+It focuses on clean function design, control flow, basic algorithms, and defensive error handling.
 
-## 🧠 Key Skills
-- Conditional Statements (`if`, `elif`, `else`)  
-- Loops & Iteration (for, while)  
-- Sorting Algorithms (Bubble Sort)  
-- Error Handling (`try`, `except`, validation)  
-- Data Structures (Lists, Dictionaries)  
-- Clean, modular function design
+The codebase reflects production-ready fundamentals that scale into larger systems.
 
-## ⚙️ Tools & Setup
-- Python 3.10+  
-- Jupyter Notebook / Visual Studio Code  
-- GitHub for version control
+## 🎯 Capabilities Demonstrated
+- Conditional logic and branching
+- Iteration with loops
+- Custom sorting logic
+- Input validation and error handling
+- Modular, testable function design
 
-## 🏁 Outcome
-✅ 5/5 autograded cells passed  
-✅ 100 / 100 points earned  
-✅ All hidden tests cleared
+## 📂 Project Structure
+```
+microsoft-python-fundamentals/
+├── README.md
+├── categorize_ratings.py
+├── discount_function.py
+├── sorting_and_error_handling.py
+```
 
----
-**Author:** Judy Raj  
-**Certification:** Microsoft Python Development
+## ▶ How to Run
+From the project folder:
+
+```bash
+python categorize_ratings.py
+python discount_function.py
+python sorting_and_error_handling.py
+```
+
+## 🧠 Engineering Value
+- Forms the building blocks for automation and analytics workflows  
+- Demonstrates control-flow mastery and algorithmic thinking  
+- Shows clean, maintainable Python structure  
+
+## 📝 Notes
+This project is designed as a portfolio demonstration of foundational Python concepts without exposing sensitive data.
