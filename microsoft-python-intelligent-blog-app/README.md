@@ -1,28 +1,55 @@
-# Microsoft Python – Intelligent Blog App (Flask)
+<h1 align="center">Intelligent Blog Application (Flask)</h1>
 
-A minimal Flask web app project (with templates + static assets) and basic pytest tests.
+<p align="center">
+  Python • Flask • Web Application • Templates • Testing
+</p>
 
-## What’s inside
-- `app.py` – Flask application entry point
-- `templates/` – HTML templates
-- `static/` – JS/CSS assets
-- `tests/` – pytest tests
+<hr/>
 
-## Run locally
+## 🧠 Overview
+This project is a lightweight Flask-based web application that demonstrates backend routing, template rendering, static asset handling, and basic automated testing.
+
+It represents a clean, production-style micro web service suitable for content-driven applications and internal tools.
+
+## 🎯 Capabilities Demonstrated
+- Flask application structure and routing
+- HTML template rendering (Jinja2)
+- Static asset management (CSS/JS)
+- Configuration via virtual environments
+- Automated testing with pytest
+
+## 📂 Project Structure
+```
+microsoft-python-intelligent-blog-app/
+├── app.py              # Flask application entry point
+├── templates/          # HTML templates
+├── static/             # CSS/JS assets
+├── tests/              # pytest test cases
+├── requirements.txt
+└── README.md
+```
+
+## ▶ How to Run
 ```bash
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
 pip install -r requirements.txt
 python app.py
 ```
 
-Then open: http://127.0.0.1:5000
+Open: http://127.0.0.1:5000
 
-## Run tests
+## ▶ Run Tests
 ```bash
 pytest -q
 ```
 
-## Notes
-This folder is cleaned for GitHub (removed cache folders like `__pycache__` and `.pytest_cache`).
+## 🧠 Engineering Value
+- Demonstrates MVC-style web application design
+- Shows clean separation of concerns
+- Supports test-driven development
+- Suitable for small content or internal apps
