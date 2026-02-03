@@ -1,15 +1,30 @@
-# 📉 Churn Prediction Dashboard
+# Churn Prediction Dashboard
+Predictive Analytics • Feature Engineering • Visualization • Business Insights
 
-## Overview
-A Python-based dashboard project focused on churn analysis, including data preparation and reporting/visualization for churn-related insights.
+## 🧠 Overview
+This project demonstrates an end-to-end churn analytics workflow using Python.
+It focuses on transforming raw customer data into actionable insights through data preparation, predictive modeling, and dashboard-style reporting.
 
-## What this project demonstrates
-- Data cleaning and feature preparation (project-dependent)
-- Analytics and visualization/reporting
-- Dashboard-style presentation of results
+## 🎯 Capabilities Demonstrated
+- Data cleaning and feature preparation
+- Exploratory analysis
+- Predictive modeling
+- Dashboard-style visualization
+- Exportable reports
 
-## Tech
-Python (and common data libraries as used in the project)
+## 📂 Project Structure
+microsoft-python-churn-prediction-dashboard/
+├── data/
+├── src/
+├── templates/
+├── results/
+├── requirements.txt
+└── README.md
 
-## Notes
-Part of the **Microsoft Python Development Portfolio**.
+## ▶ How to Run
+python -m venv .venv
+pip install -r requirements.txt
+python src/main.py
+
+## 🧠 Data Engineering Value
+Enables churn prediction, business insights, and proactive decision-making.
