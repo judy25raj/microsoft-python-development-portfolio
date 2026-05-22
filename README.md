@@ -78,6 +78,6 @@ Currently focused on Python development, automation, and applied data engineerin
 ---
 
 ## 📝 Notes
-- All projects are for educational and portfolio demonstration purposes  
+- Projects are developed for portfolio, and enterprise AI demonstration purposes 
 - Sensitive data and credentials are excluded  
 - Each folder contains a project-level `README.md` with additional details
